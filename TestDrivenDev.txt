@@ -1,0 +1,27 @@
+Test driven development
+
+Need to test a class:
+-right click on the class
+-Go To> test> Create new test
+-use JUnit3
+
+1. write tests that fail
+2. write code for the tests
+3. run the tests and go to 2 until they pass
+4. goto 1
+
+** all tests functions begin with the prefix test-
+-Java doesn't run the tests in order, so dont make 
+them dependent on each other.
+-avoid using setup and teardown 
+
+We want to pretend that, when we wite the tests, we 
+already have all of the reqs we need. (rather than 
+having the other classes empty).
+
+The simpler the code inside of the tests, the easier 
+it is to check what function failed.
+
+
+==> To run a method test, right click on the name of 
+the method > Run Test
