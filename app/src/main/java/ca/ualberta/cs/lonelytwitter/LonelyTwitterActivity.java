@@ -51,7 +51,7 @@ public class LonelyTwitterActivity extends Activity {
 				tweets.clear();
 				saveInFile();
 				adapter.notifyDataSetChanged();
-				
+
 			}
 		});
 
