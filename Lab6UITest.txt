@@ -1,0 +1,10 @@
+make a button an attribute:
+right click the button >refactor > extract > field
+
+generate getter:
+right click on the attribute > generate> getter > ok
+
+los test no estaban pasando por que no puedes cambiar nada del UI
+en un hilo que no sea el que tiene todas las cosas de UI. 
+Por eso tenemos que poner la linea de activity.runOnUiThread()
+
